@@ -35,6 +35,11 @@ button{
     color: white;
     border: 2px solid black; 
     border-radius: 8px; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3216ad;
 }
 
 
@@ -55,14 +60,13 @@ button{
 }
 
 .note button {
+    color: black;
     align-self: flex-end;
     width: 25%;
     margin-left: 5px;
     background-color: gray;
     border: none;
     padding: 2px 0px;
-    border-radius: 8px;
-    cursor: pointer;
 }
 
 .note button:hover {
